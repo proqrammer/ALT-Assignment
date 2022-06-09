@@ -1,0 +1,13 @@
+:root{
+    --teal: #011f26;
+    --rose-white: #F0810F;
+    --dirt-white: #f2f2f2;
+    --forest-green: #011A27;
+    --green: #52ab98;
+    --navy: #011A27;
+    --aqua: #00FFFF;
+}
+.green{
+    color: #c8d8e4;
+}
+.pt{padding-top: -100px;}
