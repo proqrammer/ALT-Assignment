@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+.banner-sect{
+    position: relative;
+    height: 100vh;
+    background-color: var(--dirt-white);
+    background-size: cover;
+    -webkit-background-size:center;
+    background-position: center center;
+}
+
+nav{
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    height: 70px;
+    min-width: 100%;
+    padding: 10px;
+    margin-top: -10px;
+    background-color: var(--navy);
+    transition: 0.3s ease-in-out;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+}
+.logo{
+    font-family: 'Macondo', cursive;
+    font-size: 40px;
+    font-weight: 500;
+    margin-left: 105px;
+    color: #F0810F;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    padding: 10px;
+    color: var(--dirt-white);
+}
+.nav-menu{
+    display: flex;
+    margin-right: 100px;  
+}
+a li:hover{
+    color: var(--rose-white);
+}
+form{
+    border: 3px solid #f1f1f1;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px 30px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+input[type=checkbox]{
+    margin-top: 20px;
+}
+button[type=submit], button[type=button]  {
+    background-color: var(--navy);
+    color: #F0810F;;
+    font-size: 15px;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover{
+    opacity: 0.8;
+}
+.container{
+    width: 50%;
+    margin: auto auto;
+    padding-top: 100px;
+}
+span.password{
+    display: block;
+    float: none;
+    padding-top: 20px;
+}
+span a{
+    text-decoration: none;
+    color: #04aa6d;
+}
+.btn-cancel{
+    padding: 20px 30px;
+}
